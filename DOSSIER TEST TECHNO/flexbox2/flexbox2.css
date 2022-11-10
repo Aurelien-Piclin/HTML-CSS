@@ -1,0 +1,41 @@
+.d1 {
+    flex: 1;
+    min-width: 250px;
+    height: 50px;
+    background: #fbb;
+    }
+
+
+section {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.d2 {
+flex: 1;
+min-width: 250px;
+height: 50px;
+background: #bfb;
+}
+
+.d3 {
+flex: 1;
+min-width: 250px;
+height: 50px;
+background: #bbf;
+}
+
+.d4 {
+flex: 1;
+min-width: 250px;
+height: 100px;
+background: rgb(20, 20, 116);
+}
+
+
+.d23 {
+    flex:1;
+    min-width: 500px;
+    height: 100px;
+}

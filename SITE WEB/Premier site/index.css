@@ -1,0 +1,232 @@
+@media screen and (max-width: 539px) and (min-width: 320px) {
+
+  html {
+    background-color: rgb(193, 212, 14) !important;
+  }
+
+  h1 {
+    color: green;
+  }
+}
+
+@media screen and (max-width: 959px) and (min-width: 540px) {
+  html {
+    background-color: rgb(105, 133, 255) !important;
+  }
+
+  h1 {
+    color: darkred;
+  }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 960px) {
+  html {
+    background-color: hotpink !important;
+  }
+
+
+  h1 {
+    color: yellow;
+  }
+}
+
+
+html {
+  background-color: rgb(55, 55, 55);
+  background-image: url(tigre.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: 'Suez One', serif;
+  font-size: x-large;
+  color: white;
+}
+
+img#welcome { /*image bannière*/
+  padding-top: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+p#banniere {
+  position: relative;
+  top: 0px;
+  width: 98%;
+  margin-bottom: 0px;
+  padding-bottom: 200px;
+  height: 10px;
+  ;
+  border: 10px solid rgb(91, 7, 7);
+}
+
+p#menu {
+  position: relative;
+  top: 0px;
+  width: 98%;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  height: 25px;
+  background-color: rgb(216, 142, 69);
+  border: 7px solid rgb(91, 7, 7);
+  display: flex;
+  justify-content: space-around;
+}
+
+div#main {
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+h1 {
+  text-decoration: underline rgb(91, 7, 7);
+  text-decoration-thickness: 10px;
+  text-align: center;
+  text-size-adjust: auto;
+  font-size: xx-large;
+}
+
+h2 {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgb(221, 158, 95);
+}
+
+p#hw { /* Apparence de hello world! */
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+}
+
+/*Concerne la liste*/
+
+li {
+  list-style-type: square;
+}
+
+img#foot {
+  width: 75px;
+  height: 75px;
+}
+
+img#f1 {
+  width: 75px;
+  height: 75px;
+}
+
+img#tennis {
+  width: 40px;
+  height: 30px;
+}
+
+div#liste {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+/*Concerne le formulaire */
+
+fieldset { /* Contour du formulaire */
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+  background-color: rgb(221, 158, 95);
+}
+
+
+input { /* Zone de saisie du formulaire */
+  width: 100%;
+  background-color: rgb(147, 132, 111);
+}
+
+input#cadresujet {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(147, 132, 111);
+
+}
+
+button {
+  font-weight: bold;
+}
+
+img#carrey {
+  width: 50%;
+  height: auto;
+}
+
+
+/*Concerne le tableau*/
+
+caption {
+  border: 4px solid black;
+  background-color: rgb(115, 180, 17);
+}
+
+table {
+  border: 4px solid black;
+  width: 50%;
+  background-color: rgb(115, 180, 17);
+}
+
+th {
+  border: 2px solid black;
+  background-color: grey;
+}
+
+td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+
+/*Concerne les liens*/
+
+a {
+  color: rgb(94, 110, 166);
+}
+
+a:hover /* Apparence au survol des liens */
+  {
+  text-decoration: underline;
+  color: green;
+}
+
+a:visited /* Apparence après avoir cliqué sur le lien */
+  {
+  color: rgb(93, 69, 81);
+}
+
+
+/*Autre*/
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+iframe {
+  background-color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 98%;
+  padding-top: 50px;
+  height: 50px;
+  background-color: rgb(221, 158, 95);
+  border: 10px solid rgb(91, 7, 7);
+}

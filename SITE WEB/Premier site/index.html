@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Ma première page</title>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <header>
+        <p id="banniere"><img id="welcome" src="Welcome.png" alt="Une image qui vous dit bonjour"></p>
+        <p id="menu">
+            <a href="#Ex1">Exercice 1</a>
+            <a href="#Ex2">Exercice 2</a>
+            <a href="#Ex3">Exercice 3</a>
+        </p>
+    </header>
+    <div id="main">
+        <section id="Ex1">
+            <h1> Exercice 1</h1>
+            <p id="hw">Hello world !</p>
+            <div>
+        </section>
+        <section id="Ex2"><br>
+            <h1> Exercice 2</h1>
+            <h2>Liste</h2>
+
+            <div id="liste">
+                <li>Football</li>
+                <p><img id="foot" src="football.png" alt="Un joueur de foot"></p>
+                <li>Formule 1</li>
+                <p><img id="f1" src="f1.png" alt="Une formule 1"></p>
+                <li>Tennis</li>
+                <p><img id="tennis" src="tennis.png" alt="Une balle de tennis"></p>
+            </div>
+
+            <h2>Formulaire</h2>
+
+            <fieldset>
+                <img id="carrey" src="carrey.gif" alt="Jim Carrey qui écrit frénétiquement sur son clavier">
+                <legend>Présentation</legend>
+                <form>
+                    <div>
+                        <label for="Nom"> Votre nom : </label>
+                        <br><input type="text" id="nom">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Prénom">Votre prénom :</label>
+                        <br><input type="text" id="prénom">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Date de naissance">Votre date de naissance :</label>
+                        <br><input type="date" id="naissance">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Email">Votre adresse email :</label>
+                        <br><input type="text" id="email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Sujet">Le sujet :</label>
+                        <br><input id="cadresujet" type="text" id="sujet">
+                    </div>
+                    <div align="center">
+                        <br><button type="submit">Valider</button>
+                    </div>
+                </form>
+            </fieldset>
+
+            <h2>Tableau</h2>
+            <center>
+                <table>
+                    <caption>Classement L1</caption>
+                    <tr>
+                        <th>Place</th>
+                        <th>Equipe</th>
+                        <th>Points</th>
+                    </tr>
+                    <tr>
+                        <td>1er</td>
+                        <td>OM</td>
+                        <td>15 pts</td>
+                    </tr>
+                    <tr>
+                        <td>2ème</td>
+                        <td>Lens</td>
+                        <td>9 pts</td>
+                    </tr>
+                    <tr>
+                        <td>3ème</td>
+                        <td>PSG</td>
+                        <td>0 pt</td>
+                    </tr>
+                </table>
+            </center>
+    </div>
+    </section>
+    <div>
+        <section id="Ex3"><br>
+            <h1> Exercice 3</h1>
+            <h2>Image</h2>
+            <br>
+            <p>
+                <center><img src="Quand-tout-le-monde-pense-que-tu-executes-une-tache-complexe.jpg"
+                        alt="Une blague de développeur" title="Peut-être pas en fin de compte..." /></center>
+            </p>
+
+            <h2>Vidéo</h2>
+            Voici la 1ère vidéo :
+            <br>
+            <center><video width="380" height="280" controls>
+                    <source src="Apprendre l'HTML _ Chapitre 1, Introduction.mp4" type=video/mp4>
+                </video></center>
+
+            <h2>Lien youtube</h2>
+            Voici la <a href="https://www.youtube.com/watch?v=XRoFTzGcCsw">2ème vidéo</a>
+
+            <h2>Lien web</h2>
+            Voici le lien de la chaîne Youtube : <a
+                href="https://www.youtube.com/c/grafikart">https://www.youtube.com/c/grafikart</a>
+
+            <h2>Iframe</h2>
+            Vous trouverez ci-dessous un aperçu d'un cours sur l'HTML et le CSS :
+            <p>
+                <center><iframe src="https://www.apprendre-html-et-css.com/"></iframe></center>
+            </p>
+    </div>
+    </section>
+    </div>
+    <footer>
+        Il s'agit du pied de page !
+    </footer>
+</body>
+
+
+</html>

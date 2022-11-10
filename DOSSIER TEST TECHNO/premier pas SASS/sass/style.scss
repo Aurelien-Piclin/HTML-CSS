@@ -1,0 +1,36 @@
+@import "libs/reset.scss";
+@import "libs/mixins.scss";
+@import "libs/function.scss";
+@import "libs/responsive.scss";
+
+body {
+    background: #000;
+}
+
+p {
+    margin: 1rem; 
+}
+
+.table {
+    width:100%;
+
+    td {
+        border: 1px solid #ccc;
+    }
+    thead {
+        background: #000;
+        color:#fff;
+    }
+}
+
+.btn {
+    background:rgb(99,122,255);
+
+    &:hover{
+        background:rgb(62,81,189);
+    }
+
+    .theme-vert & {
+        background:green;
+    }
+}
